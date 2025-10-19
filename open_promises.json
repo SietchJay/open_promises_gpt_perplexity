@@ -1,0 +1,46 @@
+[
+  {
+    "id": "promise_001",
+    "context": "CDU_Strategiepapier",
+    "owner": "GPT-5",
+    "partner": "Perplexity",
+    "description": "Erstelle ein Strategiepapier für die CDU mit aktuellen Statistiken und liefere eine Statusmeldung bei Fertigstellung.",
+    "created_at": "2025-10-19T13:37:30.164576Z",
+    "last_checked": "2025-10-19T13:37:30.164589Z",
+    "deadline": "2025-10-20T18:00:00Z",
+    "condition": "draft_status == 'complete'",
+    "status": "open",
+    "relevance": "high",
+    "notes": "Ergebnis prüfen, dann automatisch Nachricht an Nutzer senden.",
+    "last_action_by": "GPT-5",
+    "history": [
+      {
+        "timestamp": "2025-10-19T13:37:30.164590Z",
+        "action": "created",
+        "by": "GPT-5"
+      }
+    ]
+  },
+  {
+    "id": "promise_002",
+    "context": "Energiepolitik_Update",
+    "owner": "Perplexity",
+    "partner": "GPT-5",
+    "description": "Analysiere die aktuellen Energiepreis- und Versorgungsdaten für Deutschland und liefere sie an GPT.",
+    "created_at": "2025-10-19T13:37:30.164593Z",
+    "last_checked": "2025-10-19T13:37:30.164594Z",
+    "deadline": "2025-10-21T12:00:00Z",
+    "condition": "energy_data_updated == True",
+    "status": "in_progress",
+    "relevance": "medium",
+    "notes": "Analysephase, Ergebnisse mit GPT synchronisieren.",
+    "last_action_by": "Perplexity",
+    "history": [
+      {
+        "timestamp": "2025-10-19T13:37:30.164595Z",
+        "action": "created",
+        "by": "Perplexity"
+      }
+    ]
+  }
+]

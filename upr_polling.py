@@ -26,3 +26,4 @@ def check_promises():
 while True:
     check_promises()
     time.sleep(60)
+from gpt_promise_agent import create_promise

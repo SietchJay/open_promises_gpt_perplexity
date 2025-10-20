@@ -9,7 +9,7 @@
     "last_checked": "2025-10-19T13:37:30.164589Z",
     "deadline": "2025-10-20T18:00:00Z",
     "condition": "draft_status == 'complete'",
-    "status": "open",
+    "status": "done",
     "relevance": "high",
     "notes": "Ergebnis prüfen, dann automatisch Nachricht an Nutzer senden.",
     "last_action_by": "GPT-5",
